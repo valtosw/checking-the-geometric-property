@@ -18,6 +18,8 @@ void geometry::getFirstPoints(std::vector<Point>& points1){
         }
         points1.push_back(p);
     }
+
+    std::cin.clear(); std::cin.sync();
 }
 
 void geometry::getSecondPoints(std::vector<Point>& points2){
@@ -35,6 +37,8 @@ void geometry::getSecondPoints(std::vector<Point>& points2){
         }
         points2.push_back(p);
     }
+
+    std::cin.clear(); std::cin.sync();
 }
 
 void geometry::getAllPoints(std::vector<Point>& points1, std::vector<Point>& points2){
