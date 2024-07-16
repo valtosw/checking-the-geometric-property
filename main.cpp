@@ -12,7 +12,7 @@ int main() {
     quadrangle::Quadrangle quad1{points1[0], points1[1], points1[2], points1[3]};
     quadrangle::Quadrangle quad2{points2[0], points2[1], points2[2], points2[3]};
 
-    logging::result(quad1, quad2);
+    logging::result(quad1^quad2);
     logging::close();
 
     return 0;
